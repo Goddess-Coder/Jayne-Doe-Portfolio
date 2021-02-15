@@ -1,0 +1,147 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    margin: 0 auto;
+    width:970px;
+    height: 1182px;
+    /* 1062 */
+    background-color:#f6f6f6;
+}
+#header{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    height:66px;
+}
+    #header h1{
+        margin-left:15px;
+        margin-top:10px;
+        font-size:31pt
+    }
+    #header h2{
+        margin-right:15px;
+        font-size:19pt;
+        margin-top:21px;
+    }
+.row{
+    display:flex;
+    justify-content:space-evenly;
+    margin:18px;
+}
+#main{
+    background-color:#533f48;
+    padding:1px;
+    height:1021px;
+    /* 911 */
+}
+.mainphoto{
+    width:406px;
+    border: 5px solid gray;
+    margin-right:18px;
+}
+#about{
+    background-color:#eae2ea;
+    width:498px;
+}
+#about h3{
+    background-color:#8f8e99;
+    color:white;
+    padding:10px;
+    margin:0px;
+}
+h3{
+    background-color:#8f8e99;
+    color:white;
+    padding:12px;
+    margin:-4px;
+}
+h4{
+    background-color:#8f8e99;
+    color:white;
+    padding: 10px;
+
+}
+.familycontactH4{
+    margin-top:-9px;
+}
+.fiveElevenH4{
+    margin-top:-24px;
+}
+p{
+    padding:10.5px;
+    margin:-1px;
+}
+    p a{
+        color: black;
+    }
+.lowerbox{
+    display:flex;
+    align-content: space-between;
+    height:701px;
+     /*600  */
+    margin-left: 9px;
+    /* 23 */
+    
+}
+.box{
+    width:286px;;
+    background-color:#eae2ea;
+    margin:12px;
+    padding:4px;
+}
+.lowerbox p{
+    margin:-1px;
+    font-size: 11pt;
+}
+.boxImgs{
+    margin-top:5px;
+}
+.TechIcon{
+    margin-top:77px;
+}
+.FamConIcon{
+    margin-top:49px;
+}
+.FiveEleIcon{
+    margin-top:26px;
+}
+.icon2{
+    list-style-type: none;
+    width:37px;
+    padding:8px;
+    justify-content: space-between;
+    
+}
+.button{
+    width:fit-content; 
+    padding:5px;
+    margin: 10px auto;
+    display:block;
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+    border:1px solid black;
+    box-shadow: 3px 3px 3px grey; 
+    font-weight: bold;
+    text-decoration:none;
+}
+.contactinfo{
+    display:block;
+    margin-left: 24px;
+    margin-top:4px;
+    text-align: center;
+}
+#smicon{
+    border-radius:1px;
+    display:block;
+    justify-content: center;
+}
+
+.contactinfo a {
+    color:black;
+}
+
+#smicon img{
+    width:17px;
+}
